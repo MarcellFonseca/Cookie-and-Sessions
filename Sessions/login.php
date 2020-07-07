@@ -6,7 +6,7 @@
 	//Atribuindo o valor para "senha" com o fomulário enviado com POST
     $_SESSION["senha"] = $_POST['password'];
 	//IF para analisar se a senha e usuario estão corretos
-    if(isset($_SESSION["usuario"]) == "Nicolas" && isset($_SESSION["senha"]) == "20135") 
+    if(isset($_SESSION["usuario"]) == "Marcell" && isset($_SESSION["senha"]) == "20135") 
     {
 		//Sessão == True
         $_SESSION["user_login"] = true;
